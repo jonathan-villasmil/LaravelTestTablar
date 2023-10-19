@@ -60,7 +60,7 @@ return [
     |
     */
 
-    'layout_topnav' => true,
+    'layout_topnav' => false,
     'layout_boxed' => null,
     'layout_fixed_sidebar' => null,
     'layout_light_sidebar' => null,
@@ -147,6 +147,26 @@ return [
         [
             'text' => 'Home',
             'icon' => 'ti ti-home',
+            'url' => '#'
+        ],
+        [
+            'text' => 'Users',
+            'icon' => 'ti ti-users',
+            'url' => '#'
+        ],
+        [
+            'text' => 'Roles',
+            'icon' => 'ti ti-users-plus',
+            'url' => '#'
+        ],
+        [
+            'text' => 'Categories',
+            'icon' => 'ti ti-category',
+            'url' => '#'
+        ],
+        [
+            'text' => 'Products',
+            'icon' => 'ti ti-brand-producthunt',
             'url' => '#'
         ],
         [
